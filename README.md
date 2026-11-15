@@ -1,7 +1,6 @@
 # Chaos messen – Lyapunov-Exponent und Vorhersagehorizont – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-lyapunov-chaos-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-lyapunov-chaos-demo.streamlit.app/)**
 
 Stück 3 der Linie **Dynamische Systeme** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Es setzt auf [logistische-abbildung-demo](https://github.com/sebastian-hanisch/logistische-abbildung-demo) auf: Das Bifurkationsdiagramm zeigt dort, **dass** die Abbildung bei r > 3,57 unregelmäßig wird und Fenster darin liegen, sagt aber nicht, **wie stark** die Empfindlichkeit ist und wie lange eine Vorhersage hält. Dafür braucht es eine Zahl, den Lyapunov-Exponenten. Nachfolger: [gleitkomma-chaos-demo](https://github.com/sebastian-hanisch/gleitkomma-chaos-demo) (warum eine Rechnerbahn immer periodisch ist) und [exponent-aus-daten-demo](https://github.com/sebastian-hanisch/exponent-aus-daten-demo) (der Exponent aus verrauschten Messreihen).
 
