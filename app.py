@@ -99,9 +99,9 @@ Eine Rechenregel macht aus einer Zahl die nächste, und man wendet sie immer wie
 with st.expander("So funktioniert das Messen von Chaos", expanded=True):
     st.markdown(
         """
-1. **Ableitungsmethode:** Entlang einer Bahn x₀, x₁, … mittelt man ln|f′(x_i)| mit f′(x) = r(1 − 2x): λ_N = (1/N)·Σ ln|f′(x_i)|. Ein positives λ heißt: Kleine Fehler wachsen im Mittel wie e^(λk).
-2. **Zweibahn-Verfahren:** Eine zweite Bahn im Abstand d₀ wird nach jedem Schritt auf diesen Abstand zurückgesetzt; gemittelt wird ln(Abstand/d₀). Das braucht keine Ableitung, aber ein passendes d₀.
-3. **Vorhersagehorizont:** Der erste Schritt, an dem zwei Bahnen mit Anfangsabstand δ₀ weiter als die Toleranz auseinander liegen. Gerechnet wird mit 130 Dezimalstellen als Wahrheit; die Float64-Bahn ist daneben die Rechnung, die man sonst hat.
+1. **Ableitungsmethode:** Entlang einer Bahn (englisch Orbit) x₀, x₁, … mittelt man ln|f′(x_i)| mit f′(x) = r(1 − 2x): λ_N = (1/N)·Σ ln|f′(x_i)|. Ein positives λ heißt: Kleine Fehler wachsen im Mittel wie e^(λk).
+2. **Zweibahn-Verfahren:** Eine zweite Bahn im Abstand d₀ wird nach jedem Schritt auf diesen Abstand zurückgesetzt (renormiert); gemittelt wird ln(Abstand/d₀). Das braucht keine Ableitung, aber ein passendes d₀.
+3. **Vorhersagehorizont (englisch Prediction Horizon):** Der erste Schritt, an dem zwei Bahnen mit Anfangsabstand δ₀ weiter als die Toleranz auseinander liegen. Gerechnet wird mit 130 Dezimalstellen als Wahrheit; die Float64-Bahn ist daneben die Rechnung, die man sonst hat.
         """
     )
 
